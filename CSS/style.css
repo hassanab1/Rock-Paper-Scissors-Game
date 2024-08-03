@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.block{
+    text-align: center;
+    height: 70vh;
+}
+
+.container{
+    background-color: #f1e0c5;
+    width: 60vmin;
+    margin: 15px auto;
+    padding: 5px 0;
+    border-radius: 40px;
+    box-shadow: -4px 4px 20px #c9b79c;
+    
+}
+
+h1{
+    font-size: 4vmin;
+    padding: 2vmin;
+    background-color: #4e6b47;
+    color: #F1E0C5;
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    box-shadow: -5px 0px 5px #b0a38e;
+}
+.Paper{
+    color: #f2613f;
+}
+
+
+.box{
+    width: 60vmin;
+    margin: 20px auto;
+}
+
+.btn{
+    margin: 0 1vmin;
+    width: 15vmin;
+    height: 15vmin;
+    max-width: 15vmin;
+    max-height: 15vmin;
+    object-fit: cover;
+    border-radius: 70vmin;
+    border: none;
+    background-color: #481E14;
+
+}
+
+
+img:active{
+    transform:scale(0.9);
+    border:2 solid #0C0C0C;
+}
+.score-board{
+    color:#342A21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vmin;
+}
+.score{
+    margin: 10px;
+
+}
+.user-score,.Comp-score{
+    font-family: "Calistoga", serif;
+    font-size: 6vmin;
+}
+
+.msg-block{
+    font-family: "Bevan", serif;
+    font-weight: 700;
+    color: #342A21;
+    font-size: 4vmin;
+    background-color: #C9B79C;
+    line-height: 5vmin;
+    width: max-content;
+    margin: 10px auto;
+    padding: 5px 10px;
+    border-radius: 40px;
+}
